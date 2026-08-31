@@ -58,24 +58,6 @@ If you miss the reveal window: `reclaimCommit`.
 - `Optimistic` — public evidence URI + bond. Unchallenged 3 days pays. Challenged goes to bond vote. No votes or a tie refunds bonds and reopens.
 - `finalize(id)` is public.
 
-## Push this to GitHub
-
-From a machine logged into your GitHub account:
-
-```
-cd droidsplit
-git remote add origin https://github.com/YOUR_USER/droidsplit.git
-git branch -M main
-git push -u origin main
-```
-
-Or:
-
-```
-gh repo create droidsplit --public --source=. --remote=origin --push
-```
-
-Do not put a private key in this repo. Deploy from your own wallet.
 
 ## License
 
