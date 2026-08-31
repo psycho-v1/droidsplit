@@ -1,0 +1,10 @@
+[profile.default]
+src = "contracts"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.26"
+optimizer = false
+via_ir = false
+
+[fmt]
+line_length = 120
